@@ -125,6 +125,7 @@ table {
 td {
     border: 1px solid var(--color3);
     padding: 10px;
+    text-align: justify;
 }
 
 article > h2 {
