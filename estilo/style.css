@@ -1,5 +1,6 @@
 @charset "UTF-8"; 
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
 
 :root {
     --color1: #e6ceff;
@@ -11,7 +12,7 @@
 }
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
 
     margin: 0px;
     padding: 0px;
@@ -71,6 +72,7 @@ menu > ul > li > a:hover {
 } 
 
 main {
+
     width: 90vw;
     background-color: var(--color1);
     margin: auto;
@@ -80,12 +82,27 @@ main {
     
 }
 
+p {
+    padding: 5px;
+}
+
+table {
+    margin-bottom: 10px;
+}
+
+td {
+    border: 1px solid var(--color3);
+    padding: 10px;
+}
+
 article > h2 {
     padding-bottom: 20px;
     background-color: var(--color6);
     color: var(--color1);
     text-align: center;
     padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
 
