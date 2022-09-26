@@ -43,14 +43,15 @@ header {
     padding-bottom: 1px;
 }
 
-header > h1 {
+header > h1 > a {
     text-align: center;
     color: var(--color1);
     text-shadow: 2px 2px #463b5a;
     display: block;
     padding: 1em;
     font-family: 'Dancing Script', cursive;  
-    font-size: 4em; 
+    font-size: 2em; 
+    text-decoration: none;
 }
 
 header > p {
