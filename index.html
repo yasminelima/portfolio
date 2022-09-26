@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <title>Media Query</title>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Desenvolvedora Front End</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Qualificações</a></li>
+                <li><a href="">Formação</a></li>
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Sobre</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod molestias aliquam doloribus laboriosam reprehenderit labore vel blanditiis facere enim deserunt modi facilis, perspiciatis ratione, dolor eveniet officiis eligendi eaque odio.</p>
+
+            <h2>Qualificações</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod molestias aliquam doloribus laboriosam reprehenderit labore vel blanditiis facere enim deserunt modi facilis, perspiciatis ratione, dolor eveniet officiis eligendi eaque odio.</p>
+
+            <h2>Formação</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod molestias aliquam doloribus laboriosam reprehenderit labore vel blanditiis facere enim deserunt modi facilis, perspiciatis ratione, dolor eveniet officiis eligendi eaque odio.</p>
+
+            <h2>Projetos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod molestias aliquam doloribus laboriosam reprehenderit labore vel blanditiis facere enim deserunt modi facilis, perspiciatis ratione, dolor eveniet officiis eligendi eaque odio.</p>
+
+            <h2>Contato</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod molestias aliquam doloribus laboriosam reprehenderit labore vel blanditiis facere enim deserunt modi facilis, perspiciatis ratione, dolor eveniet officiis eligendi eaque odio.</p>
+
+
+        </article>
+    </main>
+    
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block' ) {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block' 
+            }
+        }
+        
+    </script>
+
+</body>
+</html>
