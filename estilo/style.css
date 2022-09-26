@@ -32,12 +32,6 @@ header {
     padding-bottom: 1px;
 }
 
-header a {
-    text-decoration: none;
-    font-family: 'Dancing Script', cursive;  
-    color: var(--color1);
-}
-
 header > h1 {
     text-align: center;
     color: var(--color1);
@@ -145,10 +139,4 @@ footer {
     text-align: center;
     padding: 10px;
     margin: auto;
-
-}
-
-footer a {
-    text-decoration: none;
-    color: var(--color1);
 }
