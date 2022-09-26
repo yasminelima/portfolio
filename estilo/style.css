@@ -26,15 +26,16 @@ body, html {
 
 section {
     display: block;
-    margin-bottom: 20px;
-    width: auto;
+    margin: auto;
+    position: sticky;
 }
 
 iframe {
-    display: block;
-    width: 768px;
+    display: inline;
+    width: 70vw;
     height: 500px;
 }
+
 
 header {
     background-image: url('../Media/6831455.jpg');
