@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../estilo/style.css">
+    <link rel="stylesheet" href="../media-query.css">
+
+    <link rel="shortcut icon" href="../Media/favicon.ico" type="image/x-icon">
+ 
+    <title>Social - Yasmine Lima</title>
+</head>
+<body>
+    </header>
+    <main>
+       <article>
+        <h2>Socials</h2>
+        <p><a href="https://instagram.com/yasmine_lima" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a> <a href="https://twitch.tv/bimbas" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white"></a> <a href="https://twitter.com/biribimbas" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a> <a href="https://discord.com/users/Bimbas#6465" target="_blank"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a> <a href="https://open.spotify.com/user/12148149812" target="_blank"><img src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white"></a></p>
+        <p>My opinions are my own.</p>
+        </article>
+    </main>
+</body>
+</html>

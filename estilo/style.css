@@ -24,9 +24,20 @@ body, html {
     color: var(--color6);
 }
 
+section {
+    height: 500px;
+    display: block;
+}
+
+iframe {
+    display: block;
+    width: 760px;
+    height: 500px;
+ }
+
 header {
     background-image: url('../Media/6831455.jpg');
-    background-position: relativa;
+    background-position: relative;
     background-size: cover;
     margin: auto;
     padding-bottom: 1px;
