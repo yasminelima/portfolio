@@ -2,4 +2,4 @@
 
 <p>Personal portfolio</p> 
 
-<h2><a href="https://yasminelima.github.io/portifolio/" target="_blank">Link para Acesso</a></h2><br>
+<h2><a href="https://yasminelima.github.io/portfolio/" target="_blank">Link para Acesso</a></h2><br>
