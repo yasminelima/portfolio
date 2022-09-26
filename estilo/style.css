@@ -1,6 +1,7 @@
 @charset "UTF-8"; 
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 :root {
     --color1: #e6ceff;
@@ -24,15 +25,31 @@ body, html {
 }
 
 header {
-    background-color: var(--color1);
+    background-image: url('/Media/6831455.jpg');
+    background-position: relativa;
+    background-size: cover;
     margin: auto;
     padding-bottom: 1px;
 }
 
 header > h1 {
     text-align: center;
+    color: var(--color1);
+    text-shadow: 2px 2px #463b5a;
+    display: block;
     padding: 1em;
-    
+    font-family: 'Dancing Script', cursive;  
+    font-size: 4em; 
+}
+
+header > p {
+    text-align: center;
+    color: var(--color1);
+    text-shadow: 2px 2px #463b5a;
+    text-align: center;
+    padding-bottom: 2em;
+    font-family: 'Noto Sans Mono', monospace; 
+    font-size: 1em; 
 }
 
 i#burguer {
@@ -50,6 +67,8 @@ i#burguer:hover {
 
 menu {
     display: none;
+    margin: 1%;
+    margin-left: 2vw;
 }
 
 menu > ul {
@@ -97,6 +116,7 @@ td {
 
 article > h2 {
     padding-bottom: 20px;
+    font-family: 'Dancing Script', cursive;  
     background-color: var(--color6);
     color: var(--color1);
     text-align: center;
@@ -110,4 +130,13 @@ article > p {
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
+}
+
+footer {
+    font-family: 'Dancing Script', cursive; 
+    background-color: var(--color6);
+    color: var(--color1);
+    text-align: center;
+    padding: 10px;
+    margin: auto;
 }
