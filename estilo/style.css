@@ -27,13 +27,14 @@ body, html {
 section {
     height: 500px;
     display: block;
+    margin-bottom: 20px;
 }
 
 iframe {
     display: block;
     width: 760px;
     height: 500px;
- }
+}
 
 header {
     background-image: url('../Media/6831455.jpg');
