@@ -153,3 +153,8 @@ footer {
     padding: 10px;
     margin: auto;
 }
+
+footer a {
+    text-decoration: none;
+    color: var(--color1);
+}
