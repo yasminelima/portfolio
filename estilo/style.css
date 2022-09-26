@@ -64,6 +64,7 @@ menu > ul > li > a {
     background-color: var(--color6);
     color: white;
     border-top: 1px solid var(--color3);
+    border-radius: 10px;
 }
 
 menu > ul > li > a:hover {
@@ -82,6 +83,11 @@ main {
 
 article > h2 {
     padding-bottom: 20px;
+    background-color: var(--color6);
+    color: var(--color1);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 article > p {
