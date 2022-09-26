@@ -131,6 +131,12 @@ article > h2 {
     border-radius: 10px;
 }
 
+article > h2 > a {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: var(--color1);
+}
+
 article > p {
     text-align: justify;
     margin-bottom: 20px;
