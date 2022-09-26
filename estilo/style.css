@@ -121,7 +121,8 @@ td {
 
 article > h2 {
     padding-bottom: 20px;
-    font-family: 'Dancing Script', cursive;  
+    font-family: 'Dancing Script', cursive; 
+    font-size: 1.7em; 
     background-color: var(--color6);
     color: var(--color1);
     text-align: center;
@@ -150,6 +151,7 @@ footer {
     text-align: center;
     padding: 10px;
     margin: auto;
+    font-weight: bolder;
 }
 
 footer a {
