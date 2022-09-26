@@ -25,7 +25,7 @@ body, html {
 }
 
 header {
-    background-image: url('/Media/6831455.jpg');
+    background-image: url('../Media/6831455.jpg');
     background-position: relativa;
     background-size: cover;
     margin: auto;
